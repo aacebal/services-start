@@ -8,7 +8,8 @@ import { AccountComponent } from './account/account.component';
 import { NewAccountComponent } from './new-account/new-account.component';
 
 import { LoggingService } from './services/logging.service';
-import { AccountsService } from './services/accounts.service';
+import { AccountsService } from 'app/services/accounts.service';
+
 
 @NgModule({
   declarations: [
